@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../../utils/app_colors.dart';
+import '../../../../utils/app_colors.dart';
 
 class BookRating extends StatelessWidget {
   final double score;
@@ -17,7 +17,7 @@ class BookRating extends StatelessWidget {
           BoxShadow(
             offset: const Offset(3, 7),
             blurRadius: 20,
-            color: const Color(0xFD3D3D3).withOpacity(.5),
+            color: const Color(0xFFD3D3D3).withOpacity(.5),
           ),
         ],
       ),

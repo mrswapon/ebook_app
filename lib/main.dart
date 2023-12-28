@@ -1,6 +1,6 @@
 import 'package:ebook_app/utils/app_colors.dart';
 import 'package:flutter/material.dart';
-import 'views/welcome/welcome_screen.dart';
+import 'views/screen/welcome/welcome_screen.dart';
 
 void main() {
   runApp(const MyApp());

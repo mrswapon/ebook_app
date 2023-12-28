@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import '../../../utils/app_images.dart';
 import '../home/home_screen.dart';
 import 'inner_widget/rounded_button.dart';
 
@@ -13,7 +13,7 @@ class WelcomeScreen extends StatelessWidget {
         width: double.infinity,
         decoration: const BoxDecoration(
           image: DecorationImage(
-            image: AssetImage("assets/images/Bitmap.png"),
+            image: AssetImage(AppImages.bitmap),
             fit: BoxFit.fill,
           ),
         ),
@@ -33,11 +33,11 @@ class WelcomeScreen extends StatelessWidget {
             SizedBox(
               width: MediaQuery.of(context).size.width * 0.6,
               child: RoundedButton(
-                text: "start reading",
+                text: "Start Reading",
                 fontSize: 20,
                 press: () {
                   Navigator.push(context, MaterialPageRoute(builder: (context) {
-                    return const HomeScreen();
+                    return  const HomeScreen();
                   }));
                 },
               ),
